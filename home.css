@@ -1,0 +1,184 @@
+html, body {
+   /*background-image: url("sbackground2.jpg");
+   background-size: 300px 150px;
+   background-size: cover;*/
+   margin: 0;
+   padding: 0;
+   background-color: #FFFFDD;
+   background-image: url(https://www.transparenttextures.com/patterns/tileable-wood-colored.png);
+   max-width: 100%;
+   scroll-behavior: smooth;
+   /* -webkit-linear-gradient(270deg, #001929 40%, #FFFFDD 0%);
+   min-height: 100%; */
+}
+
+/*Color Pallete:
+Gold Leaf #D9B310 (217,179,16)
+Light Yellow #FFFFBC (255,255,188) Lighter: #FFFFDD (255, 255, 221)
+Green #039600 (3,150,0)
+Night Blue #001929 (0,25,41) Darker: #02001A
+Strawberry Red #6F0000 (111,0,0) Lighter: #B60000
+Patterns: batthern, tilable-wood-colored, cubes, xv
+*/
+
+/*Add fonts*/
+@font-face {
+    font-family: Snake;
+    font-weight: bold;
+    src: url(./snake-font.woff) format('woff');
+}
+
+main {
+    margin: -140px 6% 0 6%;
+    background-color: #FFFFDD;
+    background-image: url(https://www.transparenttextures.com/patterns/cubes.png);
+    min-height: 100%;
+    border-right: 10px solid #02001A;
+    border-left: 10px solid #02001A;
+}
+
+div.title{
+    position: relative;
+    background-image: url(https://www.transparenttextures.com/patterns/snow.png);
+    background-color: #001929;
+    color: #FFFFBC;
+    font-family: Snake;
+    margin: -20px 0 0 0;
+}
+
+h1{
+    position: relative;
+    font-size: 900%;
+    margin: 0px 0px 0px 7%;
+    text-align: center;
+    z-index:2;
+}
+
+h2{
+    font-size: 250%;
+    margin: 2% 20% 0 7%;
+    text-align: left;
+    font-family: Charmonman;
+}
+
+div.menu{
+    background-image: url(https://www.transparenttextures.com/patterns/arches.png);
+    background-color: #FFFFBC;
+    border-bottom: 10px #B60000;
+    border-bottom-style: double;
+    width: 100%;
+    z-index: 1;
+}
+
+/*Center vertically and horizontally NOT YET USED*/
+#center {
+  font-family: Snake;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align: center;
+}
+
+/*Menu bar start*/
+nav {
+  max-width: 100%;
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+  padding: 0.04% 0 0 0;
+  
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 3% 30px 3% 30px;
+  font-family: 'Charmonman', cursive;
+  font-weight: bold;
+ /*font-family: "Merriweather", serif;*/
+  color: #004A83;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 35, 122, 0.7);
+}
+/*Menu bar end*/
+
+
+div.cloud {
+ /* box-sizing: border-box; */
+  width     : 66.8px;
+  height    : 64px;
+  margin: 20% 0 -20% -0.55%;
+  background-color: white;
+  border-radius: 100% 100% 0 0;
+  display: inline-block;
+}
+
+div.footer{
+    background-color: white;
+    margin: 18% 0 -20% 0;
+}
+
+div.main-content {
+    
+}
+
+/*Fixed menu bar on scroll*/
+.menu {
+    position:absolute;
+    top:170px;
+    width:100%;
+}
+
+.fixed {
+    position:fixed;
+    top:0;
+}
+
+/*Make header below menu bar when using a href #*/
+.anchor{
+   display: inline-block;
+   height: 70px; /* this is the height of your header */
+   margin-top: 70px; /* this is again negative value of the height of your header */
+   visibility: hidden;
+}
+
+
+/*Slideshow*/
+div.image{
+  position: relative;
+  margin: 77px 0 0 0;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/*Warp slideshow image size*/
+img.warp-image{
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  right: -9999px;
+  bottom: -9999px;
+  margin: auto;
+}
+
+p.paragraph{
+    position: relative;
+    font-size: 20px;
+    margin: 0px 0px 0px 5%;
+    text-align: left;
+    font-family: 'Noto Serif', serif;    
+}
