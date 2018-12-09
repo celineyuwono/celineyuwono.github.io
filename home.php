@@ -15,6 +15,7 @@
     <span class="main-content" id="home"></span>
     <div class="title"><br/><br/>
         <img src="./img/strawberry-moon-x.png" style="position:absolute; top:45px; left:47%; width:6vw; z-index:1;"/>
+        <!--<img src="./img/strawberry-moon-x.png" style="position:absolute; top:45px; left:47%; width:12vh; z-index:1;"/>-->
         <!-- <h2>Welcome to my blog</h2> -->
         <h1>Celine &nbsp;Yuwono</h1>
     </div>
@@ -52,11 +53,11 @@
         <img class="warp-image" src="./img/lavender.jpg"/>
     </div>
     
-    <img src="./img/male-footprint-first.png" style="position:absolute; left:0.5%;width:5%;"/>
-    <img src="./img/male-footprint.png" style="position:absolute; left:0.5%; width:5%; top:150%;"/>
+    <img src="./img/male-footprint-first.png" style="position:absolute; left:0.5%; width:5%;"/>
+    <img src="./img/male-footprint.png" style="position:absolute; left:0.5%; width:5%; top:148.5%;"/>
     
     <img src="./img/female-footprint-first.png" style="position:absolute; right: 1.5%; width:3.5%;"/>
-    <img src="./img/female-footprint.png" style="position:absolute; right: 1.5%; width:3.5%; top:149%;"/>
+    <img src="./img/female-footprint.png" style="position:absolute; right: 1.5%; width:3.5%; top:148.5%;"/>
     
     <main>
         <span class="anchor" id="about-me"></span>
