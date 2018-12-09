@@ -182,3 +182,7 @@ p.paragraph{
     text-align: left;
     font-family: 'Noto Serif', serif;    
 }
+
+br{
+    line-height: 150%;
+}
