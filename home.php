@@ -53,11 +53,11 @@
         <img class="warp-image" src="./img/lavender.jpg"/>
     </div>
     
-    <img src="./img/male-footprint-first.png" style="position:absolute; left:0.5%; width:5%;"/>
+    <img src="./img/male-footprint-first.png" style="position:absolute; left:0.5%;width:5%;"/>
     <img src="./img/male-footprint.png" style="position:absolute; left:0.5%; width:5%; top:148.5%;"/>
     
     <img src="./img/female-footprint-first.png" style="position:absolute; right: 1.5%; width:3.5%;"/>
-    <img src="./img/female-footprint.png" style="position:absolute; right: 1.5%; width:3.5%; top:148.5%;"/>
+    <img src="./img/female-footprint.png" style="position:absolute; right: 1.5%; width:3.5%; top:147.5%;"/>
     
     <main>
         <span class="anchor" id="about-me"></span>
@@ -65,12 +65,6 @@
             <h2>About Me</h2>
             <p class="paragraph">My name is Celine Yuwono. 
                 <br/>I was born and raised in Jakarta, Indonesia.
-                <br/>There are 5 things I am interested in:
-                <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Jungian Psychology,
-                <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Learning Languages,
-                <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Reading and Writing,
-                <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Web Programming,
-                <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. and Conspiracy Theories.
             </p>
             </div>
         <span class="anchor" id="projects"></span>
