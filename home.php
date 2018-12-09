@@ -14,8 +14,7 @@
 <body>  <!-- id indicates page; is used by menu CSS to indicate active page.  No JS needed. -->
     <span class="main-content" id="home"></span>
     <div class="title"><br/><br/>
-        <img src="./strawberry1.png" style="position: absolute; top:115px; left:51%; width: 30px; z-index:2; transform: rotate(30deg)"/>
-        <img src="strawberry-moon.png" style="position:absolute; top:45px; left:47%; width:100px; z-index:1;"/>
+        <img src="./img/strawberry-moon-x.png" style="position:absolute; top:45px; left:47%; width:6vw; z-index:1;"/>
         <!-- <h2>Welcome to my blog</h2> -->
         <h1>Celine &nbsp;Yuwono</h1>
     </div>
@@ -50,14 +49,14 @@
     
     <!-- Main image OR make a slideshow -->
     <div class="image">
-        <img class="warp-image" src="./lavender.jpg"/>
+        <img class="warp-image" src="./img/lavender.jpg"/>
     </div>
     
-    <img src="./male-footprint-first.png" style="position:absolute; left:0.5%;width:5%;"/>
-    <img src="./male-footprint.png" style="position:absolute; left:0.5%; width:5%; top:150%;"/>
+    <img src="./img/male-footprint-first.png" style="position:absolute; left:0.5%;width:5%;"/>
+    <img src="./img/male-footprint.png" style="position:absolute; left:0.5%; width:5%; top:150%;"/>
     
-    <img src="./female-footprint-first.png" style="position:absolute; right: 1.5%; width:3.5%;"/>
-    <img src="./female-footprint.png" style="position:absolute; right: 1.5%; width:3.5%; top:149%;"/>
+    <img src="./img/female-footprint-first.png" style="position:absolute; right: 1.5%; width:3.5%;"/>
+    <img src="./img/female-footprint.png" style="position:absolute; right: 1.5%; width:3.5%; top:149%;"/>
     
     <main>
         <span class="anchor" id="about-me"></span>
@@ -72,58 +71,42 @@
                 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Web Programming,
                 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. and Conspiracy Theories.
             </p>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
         <span class="anchor" id="projects"></span>
         <div class="main-content">
             <h2>Projects</h2>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
         <span class="anchor" id="blog"></span>
         <div class="main-content">
             <h2>Blog</h2>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
         <span class="anchor" id="books"></span>
         <div class="main-content">
             <h2>Books</h2>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <img src="./img/the-art-of-war.jpg" height="400px";/>
+            <img src="./img/the-prince.jpg" height="400px";/>
             </div>
         <span class="anchor" id="contact"></span>
         <div class="main-content">
             <h2>Contact</h2>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
         
-    
         
-    
     </main>
+    <!--Strawberries on top of cloud-->
+    
+    
+    <img class="cloud-border" src="./img/cloud-border.png" width="99.99%";/>
+    
     <footer>
-    
-    <!--Strawberries on cloud-->
-    <img src="./strawberry6.png" style="position: absolute; margin: 51% 0 0 5%; max-height: 7%; transform: rotate(20deg)">
-    <img src="./strawberry1.png" style="position: absolute; margin: 51% 0 0 23%; max-height: 7%; transform: rotate(20deg)">
-    <img src="./strawberry2.png" style="position: absolute; margin: 51% 0 0 41%; max-height: 7%;">
-    <img src="./strawberry4.png" style="position: absolute; margin: 51% 0 0 59%; max-height: 7%; transform: rotate(330deg);">
-    <img src="./strawberry5.png" style="position: absolute; margin: 51% 0 0 77%; max-height: 7%; transform: rotate(330deg);">
-    <img src="./strawberry3.png" style="position: absolute; margin: 51% 0 0 95%; max-height: 7%;">
-    
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-   
-    <!-- Cloud border -->
-    <div class="cloud"></div><div class="cloud"></div><div class="cloud"></div><div class="cloud"></div><div class="cloud"></div>
-    <div class="cloud"></div><div class="cloud"></div><div class="cloud"></div><div class="cloud"></div><div class="cloud"></div>
-    <div class="cloud"></div><div class="cloud"></div><div class="cloud"></div><div class="cloud"></div><div class="cloud"></div>
-    <div class="cloud"></div><div class="cloud"></div><div class="cloud"></div><div class="cloud"></div><div class="cloud"></div>
-    <div class="cloud"></div><div class="cloud"></div><div class="cloud"></div><div class="cloud"></div><div class="cloud"></div>
-    <div class="cloud"></div><div class="cloud"></div><div class="cloud"></div><div class="cloud"></div>
-    <!--White rectangle attached to cloud border-->
-    <div class="footer"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
-    
+        <img src="./img/strawberry6.png" style="position: absolute;margin: -50px 0 0 5%;max-height: 7%; transform: rotate(20deg)">
+        <img src="./img/strawberry1.png" style="position: absolute; margin: -50px 0 0 22.6%; max-height: 7%; transform: rotate(20deg)">
+        <img src="./img/strawberry2.png" style="position: absolute; margin: -50px 0 0 41%; max-height: 7%;">
+        <img src="./img/strawberry4.png" style="position: absolute; margin: -50px 0 0 59%; max-height: 7%; transform: rotate(330deg);">
+        <img src="./img/strawberry5.png" style="position: absolute; margin: -50px 0 0 77.2%; max-height: 7%; transform: rotate(330deg);">
+        <img src="./img/strawberry3.png" style="position: absolute; margin: -50px 0 0 93%; max-height: 7%;">
+        <br/><br/><br/><br/><br/><br/><br/><br/>
     </footer>
 </body>
 </html>
