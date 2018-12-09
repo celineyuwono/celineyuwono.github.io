@@ -11,11 +11,11 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Charmonman|Noto+Serif" rel="stylesheet">
     <title>Celine Yuwono</title>
 </head>
-
 <body>  <!-- id indicates page; is used by menu CSS to indicate active page.  No JS needed. -->
     <span class="main-content" id="home"></span>
     <div class="title"><br/><br/>
-        <img src="strawberry-moon-x.png" style="position:absolute; top:45px; left:47%; width: 6vw; z-index:1;"/>
+        <img src="./strawberry1.png" style="position: absolute; top:115px; left:51%; width: 30px; z-index:2; transform: rotate(30deg)"/>
+        <img src="strawberry-moon.png" style="position:absolute; top:45px; left:47%; width:100px; z-index:1;"/>
         <!-- <h2>Welcome to my blog</h2> -->
         <h1>Celine &nbsp;Yuwono</h1>
     </div>
@@ -52,7 +52,13 @@
     <div class="image">
         <img class="warp-image" src="./lavender.jpg"/>
     </div>
-   
+    
+    <img src="./male-footprint-first.png" style="position:absolute; left:0.5%;width:5%;"/>
+    <img src="./male-footprint.png" style="position:absolute; left:0.5%; width:5%; top:150%;"/>
+    
+    <img src="./female-footprint-first.png" style="position:absolute; right: 1.5%; width:3.5%;"/>
+    <img src="./female-footprint.png" style="position:absolute; right: 1.5%; width:3.5%; top:149%;"/>
+    
     <main>
         <span class="anchor" id="about-me"></span>
         <div class="main-content">
