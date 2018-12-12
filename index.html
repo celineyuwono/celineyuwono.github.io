@@ -14,7 +14,7 @@
 <body>  <!-- id indicates page; is used by menu CSS to indicate active page.  No JS needed. -->
     <span class="main-content" id="home"></span>
     <div class="title"><br/><br/>
-        <img src="./img/title-image.png" id="center" style="position:absolute; width:500px; z-index:1;"/>
+        <img src="./img/title-image.PNG" id="center" style="position:absolute; width:500px; z-index:1;"/>
         <!-- <h2>Welcome to my blog</h2> -->
     </div>
     <div class="menu" id="menu-scroll">
@@ -48,17 +48,21 @@
     
     <!-- Main image OR make a slideshow -->
     <div class="image">
-        <img class="warp-image" src="./img/lavender.jpg"/>
+        <img class="warp-image" src="./img/lavender.JPG"/>
     </div>
     
     <div class="footprint-man-right">
         <img src="./img/male-footprint-first.png"/>
         <img src="./img/male-footprint.png"/>
         <img src="./img/male-footprint.png"/>    
+        <img src="./img/male-footprint.png"/>   
+        <img src="./img/male-footprint.png"/>  
     </div>
     
     <div class="footprint-woman-left">
         <img src="./img/female-footprint-first.png"/>
+        <img src="./img/female-footprint.png"/>
+        <img src="./img/female-footprint.png"/>
         <img src="./img/female-footprint.png"/>
         <img src="./img/female-footprint.png"/>
     </div>
@@ -66,10 +70,12 @@
     <main>
         <span class="anchor" id="about-me"></span>
         <div class="main-content">
+            <img style="float: right; position: relative;" height="400px"; src="./img/fuji.png"/>
             <h2>About Me</h2>
-            <p class="paragraph">My name is Celine Yuwono. 
+            <p>My name is Celine Yuwono. 
                 <br/>I was born and raised in Jakarta, Indonesia.
-            </p>
+                <br/>ユヲノセリンと申します。
+            </p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
         <span class="anchor" id="projects"></span>
         <div class="main-content">
@@ -82,12 +88,43 @@
         <span class="anchor" id="books"></span>
         <div class="main-content">
             <h2>Books</h2>
-            <img src="./img/the-art-of-war.jpg" height="400px";/>
-            <img src="./img/the-prince.jpg" height="400px";/>
+            <table class="book-ranking">
+            <tr>
+              <td><img src="./img/the-art-of-war.jpg" height="300px";/></td>
+              <td><img src="./img/the-prince.jpg" height="300px";/></td>
+              <td><img src="./img/the-art-of-war.jpg" height="300px";/></td>
+              <td><img src="./img/the-prince.jpg" height="300px";/></td>
+              <td><img src="./img/the-prince.jpg" height="300px";/></td>
+            </tr>
+            <tr>
+              <td>The Art of War</td>
+              <td>The Prince</td>
+              <td>The Art of War</td>
+              <td>The Prince</td>
+              <td>The Art of War</td>
+            </tr>
+             <tr>
+              <td><img src="./img/the-art-of-war.jpg" height="300px";/></td>
+              <td><img src="./img/the-prince.jpg" height="300px";/></td>
+              <td><img src="./img/the-art-of-war.jpg" height="300px";/></td>
+              <td><img src="./img/the-prince.jpg" height="300px";/></td>
+              <td><img src="./img/the-prince.jpg" height="300px";/></td>
+            </tr>
+            <tr>
+              <td>The Art of War</td>
+              <td>The Prince</td>
+              <td>The Art of War</td>
+              <td>The Prince</td>
+              <td>The Art of War</td>
+            </tr>
+          </table>
+            
             </div>
         <span class="anchor" id="contact"></span>
         <div class="main-content">
             <h2>Contact</h2>
+            <p>E-mail: celineyuwono@gmail.com<br/>
+               Phone: +81 80-8865-2696
             <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
         
