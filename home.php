@@ -70,7 +70,7 @@
     <main>
         <span class="anchor" id="about-me"></span>
         <div class="main-content">
-            <img style="float: right; position: relative;" height="400px"; src="./img/fuji.png"/>
+            <img style="float: right; position: relative;" height="400px" src="./img/fuji.png"/>
             <h2>About Me</h2>
             <p>My name is Celine Yuwono. 
                 <br/>I was born and raised in Jakarta, Indonesia.

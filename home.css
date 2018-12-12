@@ -1,4 +1,5 @@
-html, body {
+/*Body and html id is home*/
+#home {
    /*background-image: url("sbackground2.jpg");
    background-size: 300px 150px;
    background-size: cover;*/
@@ -185,7 +186,7 @@ div.footprint-man-right{
     margin: 0 0 0 0;
     width: 10px;
     right: 5%;
-    height: 100%;
+    height: 1000px;
 }
 
 div.footprint-woman-left{
@@ -193,7 +194,7 @@ div.footprint-woman-left{
     margin: 0 0 0 0;
     width: 10px;
     left: 1.2%;
-    height: 100%;
+    height: 1000px;
 }
 
 div.footprint-man-right img {
@@ -207,7 +208,7 @@ div.footprint-woman-left img {
 }
 
 table.book-ranking{
-    margin: 0px auto; 
+    margin: 0px auto;
     font-family: Merriweather, Serif;
     font-size: 22px;
     text-align: center;
