@@ -72,7 +72,7 @@ main {
     border-left: 10px solid #001929;
 }
 
-p.paragraph{
+p {
     position: relative;
     font-size: 20px;
     margin: 0 0 0 0;
@@ -206,3 +206,13 @@ div.footprint-woman-left img {
     margin: -8px 0 0 0;
 }
 
+table.book-ranking{
+    margin: 0px auto; 
+    font-family: Merriweather, Serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+table.book-ranking td{
+    padding: 10px;
+}
