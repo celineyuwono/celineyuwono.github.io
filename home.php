@@ -30,7 +30,7 @@
                 <a href="#projects">Projects</a>
               </li>
               <li>
-                <a href="#blog">Blog</a>
+                <a href="#languages">Languages</a>
               </li>
               <li>
                 <a href="#books">Books</a>
@@ -77,13 +77,13 @@
                 <br/>ユヲノセリンと申します。
             </p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
-        <span class="anchor" id="projects"></span>
+        <span class="anchor" id="travel"></span>
         <div class="main-content">
-            <h2>Projects</h2>
+            <h2>Travel</h2>
             </div>
-        <span class="anchor" id="blog"></span>
+        <span class="anchor" id="languages"></span>
         <div class="main-content">
-            <h2>Blog</h2>
+            <h2>Languages</h2>
             </div>
         <span class="anchor" id="books"></span>
         <div class="main-content">

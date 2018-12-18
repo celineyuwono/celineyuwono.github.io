@@ -218,3 +218,26 @@ table.book-ranking td{
     padding: 10px;
     font-family: 'Graduate', cursive;
 }
+
+/*On hover, textbox appears*/
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  margin: 20px 0 0 0;
+  position: absolute;
+  z-index: 100;
+  font-family: 'Noto Serif', serif;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
