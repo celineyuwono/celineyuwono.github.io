@@ -9,6 +9,7 @@
    background-image: url(https://www.transparenttextures.com/patterns/tileable-wood-colored.png);
    max-width: 100%;
    scroll-behavior: smooth;
+   overflow-x: hidden; 
    /* -webkit-linear-gradient(270deg, #001929 40%, #FFFFDD 0%);
    min-height: 100%; */
 }
