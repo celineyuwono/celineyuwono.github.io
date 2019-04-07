@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Celine Yuwono</title>
+	<link rel="shortcut icon" href="img/strawberry.png" />
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+	<div class="language-menu">
+		<button>EN</button>&nbsp;
+		<button>JP</button>&nbsp;
+		<button>ID</button>&nbsp;
+		<button>ZH</button>
+	</div>
+
+	<div class="main-menu">
+		<button id="about-button" onclick="showAbout()">About</button>&emsp;
+		<button id="contact-button" onclick="showContact()">Contact</button>
+	</div>
+
+	<div class="title">
+		Celine Yuwono
+	</div>
+
+	<div class="profile-picture">
+		<img src="img/profile-picture.jpg" width="330px"/>
+	</div>
+
+	<div id="about">
+		<script src="about.js"></script>
+	</div>
+	<div id="contact">
+		<script class="contact" src="contact.js"></script>
+	</div>
+
+<script>
+	function showAbout() {
+	  document.getElementById("about").style.display = "block";
+	  document.getElementById("contact").style.display = "none";
+	}
+	function showContact() {
+	  document.getElementById("about").style.display = "none";
+	  document.getElementById("contact").style.display = "block";
+	}
+</script>
+
+
+</body>
+
+</html>
