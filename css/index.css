@@ -45,6 +45,13 @@ button{
 	display: none;
 }
 
+.bar{
+	height: 30px;
+	width: 100%;
+	background: #ACE1EC;
+	margin: 280px 0px 0px 0px;
+}
+
 @media only screen and (max-width: 958px) {
   #about {
     margin: 0px 0px 100px 20%;
