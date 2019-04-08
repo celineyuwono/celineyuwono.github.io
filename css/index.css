@@ -14,7 +14,7 @@ button{
 .title{
 	text-align: left;
 	font-size: 100px;
-	padding: 0px 0px 0px 20%;
+	padding: 0px 0px 0px 15%;
 }
 
 .language-menu{
@@ -29,13 +29,13 @@ button{
 }
 
 .profile-picture{
-	margin: 10px 40px 0px 20%;
+	margin: 10px 40px 0px 15%;
 	text-align: right;
 	float: left;
 }
 
 #about{
-	width: 40%;
+	width: 45%;
 	float: left;
 }
 
@@ -54,15 +54,14 @@ button{
 
 @media only screen and (max-width: 958px) {
   #about {
-    margin: 0px 0px 100px 20%;
+    margin: 0px 0px 100px 15%;
     width: 70%;
   }
 }
 
 @media only screen and (max-width: 805px) {
   #contact {
-    margin: 0px 0px 100px 20%;
+    margin: 0px 0px 100px 15%;
     width: 50%;
-    background: blue;
   }
 }
