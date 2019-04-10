@@ -11,6 +11,10 @@ button{
 	font-size: 16px;
 }
 
+.body{
+	margin-top: -50px;
+}
+
 .title{
 	text-align: left;
 	font-size: 100px;
@@ -111,6 +115,9 @@ button{
 }
 
 @media only screen and (max-width: 958px) {
+  .body{
+	margin-top: 0px;
+  }
   .content-wrapper{
   	margin: 0px 0px 0px 15%;
   }

@@ -14,67 +14,71 @@
 </head>
 
 <body>
-
-	<div class="language-menu">
-		<button onclick="languageEN()">EN</button>&nbsp;
-		<button onclick="languageJP()">JP</button>&nbsp;
-		<button onclick="languageID()">ID</button>&nbsp;
-		<button onclick="languageZH()">ZH</button>
-	</div>
-
-	<div id="en-main-menu">
-		<button id="about-button" onclick="showAboutEN()">About</button>&emsp;
-		<button id="contact-button" onclick="showContactEN()">Contact</button>
-	</div>
-	<div id="jp-main-menu">
-		<button id="about-button" onclick="showAboutJP()">概要</button>&emsp;
-		<button id="contact-button" onclick="showContactJP()">連絡先</button>
-	</div>
-	<div id="id-main-menu">
-		<button id="about-button" onclick="showAboutID()">Tentang</button>&emsp;
-		<button id="contact-button" onclick="showContactID()">Kontak</button>
-	</div>
-	<div id="zh-main-menu">
-		<button id="about-button" onclick="showAboutZH()">关于</button>&emsp;
-		<button id="contact-button" onclick="showContactZH()">联系</button>
-	</div>
-
-	<div class="title">
-		Celine Yuwono
-	</div>
-
-	<div class="profile-picture">
-		<img src="img/profile-picture.jpg" width="330px"/>
-	</div>
-
-	<div class="content-wrapper"><!--about, contact menu-->
-		<div id="en-about">
-			<script src="content/en-about.js"></script>
-		</div>
-		<div id="en-contact">
-			<script class="contact" src="content/en-contact.js"></script>
-		</div>
-		<div id="jp-about">
-			<script src="content/jp-about.js"></script>
-		</div>
-		<div id="jp-contact">
-			<script class="contact" src="content/jp-contact.js"></script>
-		</div>
-		<div id="id-about">
-			<script src="content/id-about.js"></script>
-		</div>
-		<div id="id-contact">
-			<script class="contact" src="content/id-contact.js"></script>
+	<div class="menu">
+		<div class="language-menu">
+			<button onclick="languageEN()">EN</button>&nbsp;
+			<button onclick="languageJP()">JP</button>&nbsp;
+			<button onclick="languageID()">ID</button>&nbsp;
+			<button onclick="languageZH()">ZH</button>
 		</div>
 
-		<div id="zh-about">
-			<script src="content/zh-about.js"></script>
+		<div id="en-main-menu">
+			<button id="about-button" onclick="showAboutEN()">About</button>&emsp;
+			<button id="contact-button" onclick="showContactEN()">Contact</button>
 		</div>
-		<div id="zh-contact">
-			<script class="contact" src="content/zh-contact.js"></script>
+		<div id="jp-main-menu">
+			<button id="about-button" onclick="showAboutJP()">概要</button>&emsp;
+			<button id="contact-button" onclick="showContactJP()">連絡先</button>
+		</div>
+		<div id="id-main-menu">
+			<button id="about-button" onclick="showAboutID()">Tentang</button>&emsp;
+			<button id="contact-button" onclick="showContactID()">Kontak</button>
+		</div>
+		<div id="zh-main-menu">
+			<button id="about-button" onclick="showAboutZH()">关于</button>&emsp;
+			<button id="contact-button" onclick="showContactZH()">联系</button>
 		</div>
 	</div>
-	<div class="bar"></div>
+
+	<div class="body">
+		<div class="title">
+			Celine Yuwono
+		</div>
+
+		<div class="profile-picture">
+			<img src="img/profile-picture.jpg" width="330px"/>
+		</div>
+
+		<div class="content-wrapper"><!--about, contact menu-->
+			<div id="en-about">
+				<script src="content/en-about.js"></script>
+			</div>
+			<div id="en-contact">
+				<script class="contact" src="content/en-contact.js"></script>
+			</div>
+			<div id="jp-about">
+				<script src="content/jp-about.js"></script>
+			</div>
+			<div id="jp-contact">
+				<script class="contact" src="content/jp-contact.js"></script>
+			</div>
+			<div id="id-about">
+				<script src="content/id-about.js"></script>
+			</div>
+			<div id="id-contact">
+				<script class="contact" src="content/id-contact.js"></script>
+			</div>
+
+			<div id="zh-about">
+				<script src="content/zh-about.js"></script>
+			</div>
+			<div id="zh-contact">
+				<script class="contact" src="content/zh-contact.js"></script>
+			</div>
+		</div>
+		<div class="bar"></div>
+
+	</div>
 
 <script>
 	function languageEN(){
