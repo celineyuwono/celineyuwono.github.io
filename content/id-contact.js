@@ -8,7 +8,7 @@ document.write('\
 \	<span class="agile-red">Agile Media Network Co.Ltd</span></br>\
 \	<span>3-8-21 Toranomon, Minato-ku<br/>\
 \   Toranomon 33 Mori Building<br/>\
-\   Tokyo, Japan</span><br/>\
+\   Tokyo, Japan 〒105-0001</span><br/>\
 \   <span class="agile-red">https://agilemedia.jp</span>\
 \	</span>\
 \   <style>\
