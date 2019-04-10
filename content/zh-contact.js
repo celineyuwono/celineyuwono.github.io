@@ -6,9 +6,8 @@ document.write('\
 \   <i class="fas fa-phone">&nbsp;</i>\
 \	电话号码: +81-80-8865-2696</span><br/><br/>\
 \	<span class="agile-red bold">愛加樂股份有限公司</span></br>\
-\   <span>〒105-0001<br/>\
-\   东京都港区虎之門3-8-21<br/>\
-\   虎之門33森大楼<br/>\
+\   <span>〒105-0001东京都港区<br/>\
+\   虎之門3-8-21虎之門33森大楼<br/>\
 \   <span class="agile-red">https://agilemedia.jp</span>\
 \	</span>\
 \   <style>\
