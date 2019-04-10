@@ -69,6 +69,7 @@ button:focus{
 }
 
 #en-about{
+	margin-top: 20px;
 	width: 45%;
 	float: left;
 }
@@ -81,6 +82,7 @@ button:focus{
 }
 
 #jp-about{
+	margin-top: 20px;
 	width: 45%;
 	float: left;
 	display: none;
@@ -94,6 +96,7 @@ button:focus{
 }
 
 #id-about{
+	margin-top: 20px;
 	width: 45%;
 	float: left;
 	display: none;
@@ -108,6 +111,7 @@ button:focus{
 }
 
 #zh-about{
+	margin-top: 20px;
 	width: 45%;
 	float: left;
 	display: none;
@@ -127,6 +131,10 @@ button:focus{
 	margin: 290px 0px 0px 0px;
 }
 
+img{
+	border-radius: 50%;
+}
+
 @media only screen and (max-width: 958px) {
   .body{
 	margin-top: 0px;
@@ -137,6 +145,6 @@ button:focus{
   #en-about,#en-contact,#jp-about,#jp-contact,
   #id-about,#id-contact,#zh-about,#zh-contact{
 	width: 90%;
-  	margin-bottom: 100px;
+  	margin: 50px 0px 100px 0px;
   }
 }
