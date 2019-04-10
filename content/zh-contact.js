@@ -6,7 +6,7 @@ document.write('\
 \   <i class="fas fa-phone">&nbsp;</i>\
 \	电话号码: +81-80-8865-2696</span><br/><br/>\
 \	<span class="agile-red">Agile Media Network Co.Ltd</span></br>\
-\   <span>东京都港区虎门3-8-21<br/>\
+\   <span>〒105-0001<br/>东京都港区虎门3-8-21<br/>\
 \   虎门33森建筑<br/>\
 \   <span class="agile-red">https://agilemedia.jp</span>\
 \	</span>\

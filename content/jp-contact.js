@@ -6,7 +6,7 @@ document.write('\
 \   <i class="fas fa-phone">&nbsp;</i>\
 \	携帯電話: +81-80-8865-2696</span><br/><br/>\
 \	<span class="agile-red">アジャイルメディア・ネットワーク株式会社</span></br>\
-\	<span>東京都港区虎ノ門3-8-21<br/>\
+\	<span>〒105-0001<br/>東京都港区虎ノ門3-8-21<br/>\
 \   虎ノ門33森ビル<br/>\
 \   <span class="agile-red">https://agilemedia.jp</span>\
 \	</span>\
