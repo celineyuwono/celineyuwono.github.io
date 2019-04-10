@@ -5,7 +5,7 @@ document.write('\
 \	メール: yuwono@agilemedia.jp<br/>\
 \   <i class="fas fa-phone">&nbsp;</i>\
 \	携帯電話: +81-80-8865-2696</span><br/><br/>\
-\	<span class="agile-red">アジャイルメディア・ネットワーク株式会社</span></br>\
+\	<span class="agile-red bold">アジャイルメディア・ネットワーク株式会社</span></br>\
 \	<span>〒105-0001\
 \   <br/>東京都港区虎ノ門3-8-21<br/>\
 \   虎ノ門33森ビル<br/>\
@@ -18,6 +18,9 @@ document.write('\
 \           font-size: 24px;\
 \           margin-left: -2px;\
 \       }\
+\       .bold{\
+\           font-weight: bold\
+\        }\
 \       .agile-red{\
 \           color: rgb(177,0,44)\
 \        }\
