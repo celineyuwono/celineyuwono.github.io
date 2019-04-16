@@ -142,9 +142,14 @@ img{
   .content-wrapper{
   	margin: 0px 0px 0px 15%;
   }
-  #en-about,#en-contact,#jp-about,#jp-contact,
-  #id-about,#id-contact,#zh-about,#zh-contact{
+  #en-about,#jp-about,
+  #id-about,#zh-about{
 	width: 90%;
-  	margin: 50px 0px 100px 0px;
+  	margin: 55px 0px 100px 0px;
+  }
+  #en-contact,#jp-contact,
+  #id-contact,#zh-contact{
+	width: 90%;
+  	margin: 70px 0px 100px 0px;
   }
 }
