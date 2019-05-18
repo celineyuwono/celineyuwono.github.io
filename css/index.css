@@ -1,14 +1,31 @@
 
 html{
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Oswald', serif;
 }
 
 button{
 	position: relative;
 	border: none;
 	background: none;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Oswald', serif;
 	font-size: 16px;
+}
+
+
+button:hover{
+	color: gray;
+}
+
+button:active{
+}
+
+button:focus{
+	outline: none;
+}
+
+
+.body{
+	margin-top: -50px;
 }
 
 .title{
@@ -20,12 +37,29 @@ button{
 .language-menu{
 	text-align: right;
 	margin: 40px 40px 0px 0px;
+}
+
+#en-main-menu{
+	text-align: right;
+	margin: 0px 40px 0px 0px;
+}
+
+#jp-main-menu{
+	text-align: right;
+	margin: 0px 40px 0px 0px;
 	display: none;
 }
 
-.main-menu{
+#id-main-menu{
 	text-align: right;
-	margin: 40px 40px 0px 0px;
+	margin: 0px 40px 0px 0px;
+	display: none;
+}
+
+#zh-main-menu{
+	text-align: right;
+	margin: 0px 40px 0px 0px;
+	display: none;
 }
 
 .profile-picture{
@@ -34,12 +68,56 @@ button{
 	float: left;
 }
 
-#about{
+#en-about{
+	margin-top: 20px;
 	width: 45%;
 	float: left;
 }
 
-#contact{
+#en-contact{
+	margin-top: 10px;
+	width: 250px;
+	float: left;
+	display: none;
+}
+
+#jp-about{
+	margin-top: 20px;
+	width: 45%;
+	float: left;
+	display: none;
+}
+
+#jp-contact{
+	margin-top: 10px;
+	width: 45%;
+	float: left;
+	display: none;
+}
+
+#id-about{
+	margin-top: 20px;
+	width: 45%;
+	float: left;
+	display: none;
+}
+
+#id-contact{
+	margin-top: 10px;
+	width: 250px;
+	float: left;
+	display: none;
+	display: none;
+}
+
+#zh-about{
+	margin-top: 20px;
+	width: 45%;
+	float: left;
+	display: none;
+}
+
+#zh-contact{
 	margin-top: 10px;
 	width: 250px;
 	float: left;
@@ -50,19 +128,28 @@ button{
 	height: 30px;
 	width: 100%;
 	background: #ACE1EC;
-	margin: 280px 0px 0px 0px;
+	margin: 290px 0px 0px 0px;
+}
+
+img{
+	border-radius: 50%;
 }
 
 @media only screen and (max-width: 958px) {
-  #about {
-    margin: 0px 0px 100px 15%;
-    width: 70%;
+  .body{
+	margin-top: 0px;
   }
-}
-
-@media only screen and (max-width: 805px) {
-  #contact {
-    margin: 0px 0px 100px 15%;
-    width: 50%;
+  .content-wrapper{
+  	margin: 0px 0px 0px 15%;
+  }
+  #en-about,#jp-about,
+  #id-about,#zh-about{
+	width: 90%;
+  	margin: 55px 0px 100px 0px;
+  }
+  #en-contact,#jp-contact,
+  #id-contact,#zh-contact{
+	width: 90%;
+  	margin: 70px 0px 100px 0px;
   }
 }

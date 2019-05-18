@@ -1,14 +1,13 @@
 document.write('\
-\   <span class="agile-red contact-title">Celine Yuwono</span><br/> \
-\   <span>Web Programmer<span/><br/>\
+\   <span class="agile-red contact-title">俞雪绫</span><br/> \
+\   <span>网络开发人员<span/><br/>\
 \   <i class="fas fa-envelope">&nbsp;</i>\
-\	Email: yuwono@agilemedia.jp<br/>\
+\	电子邮件: yuwono@agilemedia.jp<br/>\
 \   <i class="fas fa-phone">&nbsp;</i>\
-\	Phone Number: +81-80-8865-2696</span><br/><br/>\
-\	<span class="agile-red">Agile Media Network Co.Ltd</span></br>\
-\	<span>3-8-21 Toranomon, Minato-ku<br/>\
-\   Toranomon 33 Mori Building<br/>\
-\   Tokyo, Japan</span><br/>\
+\	电话号码: +81-80-8865-2696</span><br/><br/>\
+\	<span class="agile-red bold">爱加乐股份有限公司</span></br>\
+\   <span>〒105-0001东京都港区<br/>\
+\   虎之門3-8-21虎之門33森大楼<br/>\
 \   <span class="agile-red">https://agilemedia.jp</span>\
 \	</span>\
 \   <style>\
@@ -18,6 +17,9 @@ document.write('\
 \           font-size: 24px;\
 \           margin-left: -2px;\
 \       }\
+\       .bold{\
+    \       font-weight: bold;\
+    \        }\
 \       .agile-red{\
 \           color: rgb(177,0,44)\
 \        }\
